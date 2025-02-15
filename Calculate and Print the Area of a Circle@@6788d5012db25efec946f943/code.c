@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int c;
+    float c;
     scanf("%d", &c);
 
-    printf("Area: %d", c**2*3.14);
+    printf("Area: %0.2f", c**2*3.14);
 
     return 0;
 }
