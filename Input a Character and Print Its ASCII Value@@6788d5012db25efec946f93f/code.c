@@ -3,6 +3,6 @@
 int main() {
     char a;
     scanf("%C", &a);
-    printf("You entered: %d", a, a);
+    printf("ASII Value: %d", a, a);
     return 0;
 }
