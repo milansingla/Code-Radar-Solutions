@@ -8,7 +8,7 @@ int main()
    else  if(c=='/'){if (b == 0) {
             printf("Error: Division by zero is not allowed\n");
         } else {
-            printf("Result: %.2f\n", (float)a / b);
+            printf("%.2d\n",a / b);
         }}
     else if(c=='*'){printf("%d",a*b);}
     else{printf("Invalid Operator");}
