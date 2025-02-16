@@ -9,7 +9,7 @@ int main() {
             printf('B');}
     else if (80>ch>=70){printf('C');}
     else if(70>ch>=60) {printf('D');}
-    else{printf('F')} 
+    else{printf('F');} 
 
 
     return 0;
