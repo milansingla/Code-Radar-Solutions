@@ -6,7 +6,8 @@ int main()
     if(c=='+'){printf("%d",a+b);}
     else if(c=='-'){printf("%d",a-b);}
    else  if(c=='/'){printf("%d",a/b);}
-    else(c=='*'){printf("%d",a*b);}
+    else if(c=='*'){printf("%d",a*b);}
+    else{printf("Invalid Operator")}
     return 0;
 }
    
