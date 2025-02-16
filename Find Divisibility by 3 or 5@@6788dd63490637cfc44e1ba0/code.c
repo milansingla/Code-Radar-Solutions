@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int c;
+    float c;
     scanf("%d", &c);
     if ((c%3==0&&c%5==0)) {printf("Divisible by Both");} 
     else if(c%3==0) { printf("Divisible by 3");}
