@@ -4,8 +4,8 @@ int main() {
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
     if ((a==b||b==c||a==c)) {printf("Equilateral");} 
-    else if(a!=b||a!=c||b!=c) { printf("Scalene");}
-    else{printf("Iaosceles");} 
+    else if((a==b&&c!=a)||(b==c&&a!=b)||(a==c&&b!=a)) { printf("Iaosceles");}
+    else{printf("Scalene");} 
 
 
     return 0;
