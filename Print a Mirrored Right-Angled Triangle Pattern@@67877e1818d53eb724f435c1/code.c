@@ -6,7 +6,7 @@ int main() {
 
     for (int i = 1; i <= n; i++) {
         // Print spaces to shift the triangle to the right
-        for (int j = 1; j <= n - i; j++) {
+        for (int j = i; j <= n; j++) {
             printf(" ");
         }
         
