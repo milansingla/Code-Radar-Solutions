@@ -5,8 +5,6 @@ int main() {
     scanf("%d", &n);  // Input the number of rows
 
     for (int i = 1; i <= n; i++) {
-        // Print spaces for alignment
-        for (int j = i; j < n; j++) {
             printf("*");
         }
         
